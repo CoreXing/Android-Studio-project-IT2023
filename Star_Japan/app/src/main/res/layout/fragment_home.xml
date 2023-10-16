@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="題目"
+        android:textSize="80dp"
+        android:backgroundTint="@color/dark_green"
+        app:layout_constraintBottom_toTopOf="@+id/first_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/second_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="36dp"
+        android:text="Ans B"
+        android:textSize="50dp"
+        android:backgroundTint="@color/light_orange"
+        app:layout_constraintBottom_toTopOf="@+id/fouth_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/first_button" />
+
+    <Button
+        android:id="@+id/first_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="36dp"
+        android:text="Ans A"
+        android:textSize="50dp"
+        android:backgroundTint="@color/light_orange"
+        app:layout_constraintBottom_toTopOf="@+id/third_button"
+        app:layout_constraintEnd_toStartOf="@+id/second_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/third_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ans C"
+        android:textSize="50dp"
+        android:backgroundTint="@color/light_orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fouth_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/fouth_button"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:text="Ans D"
+        android:textSize="50dp"
+        android:backgroundTint="@color/light_orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/third_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

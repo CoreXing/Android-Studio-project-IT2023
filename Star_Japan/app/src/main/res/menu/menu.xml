@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home_item"
+        android:title="首頁"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/learning_item"
+        android:title="學習"
+        android:icon="@drawable/ic_learning"/>
+    <item
+        android:id="@+id/setting_item"
+        android:title="設定"
+        android:icon="@drawable/ic_setting"/>
+
+</menu>

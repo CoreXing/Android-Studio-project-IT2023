@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simple_timer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Home_fragment">This is a Home page</string>
+    <string name="About_fragment">This is a About page</string>
+    <string name="Setting_fragment">This is a Setting page</string>
+</resources>

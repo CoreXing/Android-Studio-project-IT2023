@@ -1,0 +1,256 @@
+<resources>
+    <string name="app_name">Star_Japan</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--平假名50音-->
+    <string name="Hiragana_a">あ a</string>
+    <string name="Hiragana_i">い i</string>
+    <string name="Hiragana_u">う u</string>
+    <string name="Hiragana_e">え e</string>
+    <string name="Hiragana_o">お o</string>
+    <string name="Hiragana_ka">か ka</string>
+    <string name="Hiragana_ki">き ki</string>
+    <string name="Hiragana_ku">く ku</string>
+    <string name="Hiragana_ke">け ke</string>
+    <string name="Hiragana_ko">こ ko</string>
+    <string name="Hiragana_sa">さ sa</string>
+    <string name="Hiragana_shi">し shi</string>
+    <string name="Hiragana_su">す su</string>
+    <string name="Hiragana_se">せ se</string>
+    <string name="Hiragana_so">そ so</string>
+    <string name="Hiragana_ta">た ta</string>
+    <string name="Hiragana_chi">ち chi</string>
+    <string name="Hiragana_tsu">つ tsu</string>
+    <string name="Hiragana_te">て te</string>
+    <string name="Hiragana_to">と to</string>
+    <string name="Hiragana_na">な na</string>
+    <string name="Hiragana_ni">に ni</string>
+    <string name="Hiragana_nu">ぬ nu</string>
+    <string name="Hiragana_ne">ね ne</string>
+    <string name="Hiragana_no">の no</string>
+    <string name="Hiragana_ha">は ha</string>
+    <string name="Hiragana_hi">ひ hi</string>
+    <string name="Hiragana_hu">ふ hu</string>
+    <string name="Hiragana_he">へ he</string>
+    <string name="Hiragana_ho">ほ ho</string>
+    <string name="Hiragana_ma">ま ma</string>
+    <string name="Hiragana_mi">み mi</string>
+    <string name="Hiragana_mu">む mu</string>
+    <string name="Hiragana_me">め me</string>
+    <string name="Hiragana_mo">も mo</string>
+    <string name="Hiragana_ya">や ya</string>
+    <string name="Hiragana_yu">ゆ yu</string>
+    <string name="Hiragana_yo">よ yo</string>
+    <string name="Hiragana_ra">ら ra</string>
+    <string name="Hiragana_ri">り ri</string>
+    <string name="Hiragana_ru">る ru</string>
+    <string name="Hiragana_re">れ re</string>
+    <string name="Hiragana_ro">ろ ro</string>
+    <string name="Hiragana_wa">わ wa</string>
+    <string name="Hiragana_wo">を wo</string>
+    <string name="Hiragana_n">ん n</string>
+
+    <string-array name="JP_Hiragana">
+        <item>あ</item> <!--a-->
+        <item>い</item>
+        <item>う</item>
+        <item>え</item>
+        <item>お</item>
+        <item>か</item> <!--ka-->
+        <item>き</item>
+        <item>く</item>
+        <item>け</item>
+        <item>こ</item>
+        <item>さ</item> <!--sa-->
+        <item>し</item>
+        <item>す</item>
+        <item>せ</item>
+        <item>そ</item>
+        <item>た</item> <!--ta-->
+        <item>ち</item>
+        <item>つ</item>
+        <item>て</item>
+        <item>と</item>
+        <item>な</item> <!--na-->
+        <item>に</item>
+        <item>ぬ</item>
+        <item>ね</item>
+        <item>の</item>
+        <item>は</item> <!--ha-->
+        <item>ひ</item>
+        <item>ふ</item>
+        <item>へ</item>
+        <item>ほ</item>
+        <item>ま</item> <!--ma-->
+        <item>み</item>
+        <item>む</item>
+        <item>め</item>
+        <item>も</item>
+        <item>や</item> <!--ya-->
+        <item>ゆ</item>
+        <item>よ</item>
+        <item>ら</item> <!--ra-->
+        <item>り</item>
+        <item>る</item>
+        <item>れ</item>
+        <item>ろ</item>
+        <item>わ</item> <!--wa-->
+        <item>を</item>
+        <item>ん</item> <!--n-->
+    </string-array>
+    <string-array name="JP_Katakana">
+        <item>ア</item> <!--a-->
+        <item>イ</item>
+        <item>ウ</item>
+        <item>エ</item>
+        <item>オ</item>
+        <item>カ</item> <!--ka-->
+        <item>キ</item>
+        <item>ク</item>
+        <item>ケ</item>
+        <item>コ</item>
+        <item>サ</item> <!--sa-->
+        <item>シ</item>
+        <item>ス</item>
+        <item>セ</item>
+        <item>ソ</item>
+        <item>タ</item> <!--ta-->
+        <item>チ</item>
+        <item>ツ</item>
+        <item>テ</item>
+        <item>ト</item>
+        <item>ナ</item> <!--na-->
+        <item>ニ</item>
+        <item>ヌ</item>
+        <item>ネ</item>
+        <item>ノ</item>
+        <item>ハ</item> <!--ha-->
+        <item>ヒ</item>
+        <item>フ</item>
+        <item>ヘ</item>
+        <item>ホ</item>
+        <item>マ</item> <!--ma-->
+        <item>ミ</item>
+        <item>ム</item>
+        <item>メ</item>
+        <item>モ</item>
+        <item>ヤ</item> <!--ya-->
+        <item>ユ</item>
+        <item>ヨ</item>
+        <item>ラ</item> <!--ra-->
+        <item>リ</item>
+        <item>ル</item>
+        <item>レ</item>
+        <item>ロ</item>
+        <item>ワ</item> <!--wa-->
+        <item>ヲ</item>
+        <item>ン</item> <!--n-->
+    </string-array>
+    <string-array name="JP_pinyin">
+        <item>a</item> <!--a-->
+        <item>i</item>
+        <item>u</item>
+        <item>e</item>
+        <item>o</item>
+        <item>ka</item> <!--ka-->
+        <item>ki</item>
+        <item>ko</item>
+        <item>ke</item>
+        <item>ko</item>
+        <item>sa</item> <!--sa-->
+        <item>shi</item>
+        <item>su</item>
+        <item>se</item>
+        <item>so</item>
+        <item>ta</item> <!--ta-->
+        <item>chi</item>
+        <item>tsu</item>
+        <item>te</item>
+        <item>to</item>
+        <item>na</item> <!--na-->
+        <item>ni</item>
+        <item>nu</item>
+        <item>ne</item>
+        <item>no</item>
+        <item>ha</item> <!--ha-->
+        <item>hi</item>
+        <item>hu</item>
+        <item>he</item>
+        <item>ho</item>
+        <item>ma</item> <!--ma-->
+        <item>mi</item>
+        <item>mu</item>
+        <item>me</item>
+        <item>mo</item>
+        <item>ya</item> <!--ya-->
+        <item>yu</item>
+        <item>yo</item>
+        <item>ra</item> <!--ra-->
+        <item>ri</item>
+        <item>ru</item>
+        <item>re</item>
+        <item>ro</item>
+        <item>wa</item> <!--wa-->
+        <item>wo</item>
+        <item>n</item> <!--n-->
+    </string-array>
+    <!--濁音-->
+    <string-array name="JP_Hiragana_voiced_sound">
+        <item>が</item> <!--ga-->
+        <item>ぎ</item>
+        <item>ぎ</item>
+        <item>ぎ</item>
+        <item>ご</item>
+        <item>ざ</item> <!--za-->
+        <item>じ</item>
+        <item>ず</item>
+        <item>ぜ</item>
+        <item>ぞ</item>
+        <item>だ</item> <!--da-->
+        <item>ぢ</item>
+        <item>づ</item>
+        <item>で</item>
+        <item>ど</item>
+        <item>ば</item> <!--ba-->
+        <item>び</item>
+        <item>ぶ</item>
+        <item>べ</item>
+        <item>ぼ</item>
+    </string-array>
+    <string-array name="JP_Katakana_voiced_sound">
+        <item>ガ</item> <!--ga-->
+        <item>ギ</item>
+        <item>グ</item>
+        <item>ゲ</item>
+        <item>ゴ</item>
+        <item>ザ</item> <!--za-->
+        <item>ジ</item>
+        <item>ズ</item>
+        <item>ゼ</item>
+        <item>ゾ</item>
+        <item>ダ</item> <!--da-->
+        <item>ヂ</item>
+        <item>ヅ</item>
+        <item>デ</item>
+        <item>ド</item>
+        <item>バ</item> <!--ba-->
+        <item>ビ</item>
+        <item>ブ</item>
+        <item>ベ</item>
+        <item>ボ</item>
+    </string-array>
+    <string-array name="JP_Hiragana_half_voiced">
+        <item>ぱ</item> <!--pa-->
+        <item>ぴ</item>
+        <item>ぷ</item>
+        <item>ぺ</item>
+        <item>ぽ</item>
+    </string-array>
+    <string-array name="JP_Katakana_half_voiced">
+        <item>パ</item> <!--pa-->
+        <item>ピ</item>
+        <item>プ</item>
+        <item>ペ</item>
+        <item>ポ</item>
+    </string-array>
+</resources>
